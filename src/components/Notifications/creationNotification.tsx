@@ -13,7 +13,7 @@ export const creationNotification = async (expenseAuthorityId: number) => {
   const currentUser: any = await GetCurrentUser();
 
   const standardReplacementPairs: any = {
-    '[SubmitterDisplayName]': currentUser.Title, //!replace with submitter variable
+    '[SubmitterDisplayName]': currentUser.Title,
     '[SiteLink]': `<a href='${_spPageContextInfo.webAbsoluteUrl}'>${_spPageContextInfo.webTitle}</a>`,
   };
 

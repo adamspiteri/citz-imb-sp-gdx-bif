@@ -12,13 +12,13 @@ import { Reauthenticator } from '../Reauthenticator';
 // import { QuerySuccessResult } from "react-query";
 
 /*
-	Request States:
-		new
-		submitted
-		sent for approval
-		accepted
-		rejected
-		closed
+  Request States:
+    new
+    submitted
+    sent for approval
+    accepted
+    rejected
+    closed
 */
 
 export const SubmittedRequests = () => {
